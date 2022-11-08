@@ -1,4 +1,4 @@
-//! Substrate Parachain Node Template CLI
+//! Substrate Parachain Node Blockiq CLI
 
 #![warn(missing_docs)]
 
