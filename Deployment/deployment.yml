@@ -18,7 +18,17 @@ spec:
         - name: blockiq
           image: 293637174735.dkr.ecr.us-east-1.amazonaws.com/blockiq:latest
           ports:
-            - containerPort: 8080
+            - name: alice
+              containerPort: 40333
+              protocol: TCP
+            - name: ws-port
+              containerPort: 8844
+              protocol: TCP
+            - name: wasm-port
+              containerPort: 30343
+              protocol: TCP
+            - name: wasm-ws-port
+              containerPort: 9977
               protocol: TCP
           resources: {}
           terminationMessagePath: /dev/termination-log
