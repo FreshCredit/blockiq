@@ -5,7 +5,7 @@ metadata:
   name: blockiq
 spec:
   ports:
-    - name: blockiq-alice
+    - name: alice
       port: 40333
       targetPort: 40333
       protocol: TCP
