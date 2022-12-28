@@ -1,22 +1,18 @@
-# Substrate Cumulus Parachain Template
+# Substrate Cumulus Parachain for BlockIQ®
 
-A new [Cumulus](https://github.com/paritytech/cumulus/)-based Substrate node, ready for hacking ☁️..
+1. What is the BlockIQ® DAO?
 
-This project is originally a fork of the
-[Substrate Node Template](https://github.com/substrate-developer-hub/substrate-node-template)
-modified to include dependencies required for registering this node as a **parathread** or
-**parachain** to a **relay chain**.
+This is the transparent algorithmic protocol controlling the BlockIQ® DAO(decentralized autonomous organization), a non-custodial liquidity pool that generates value by tokenizing new data generated across the network, improving the BlockScore® Protocol’s overall accuracy affecting the loan interest and allocation of the BlockIQ® DAO. The BlockIQ® DAO allows assets to be staked to the liquidity pool utilizing a user’s BlockID® dNFT.
 
-The stand-alone version of this template is hosted on the
-[Substrate Devhub Parachain Template](https://github.com/substrate-developer-hub/substrate-parachain-template/)
-for each release of Polkadot. It is generated directly to the upstream
-[Parachain Template in Cumulus](https://github.com/paritytech/cumulus/tree/master/parachain-template)
-at each release branch using the
-[Substrate Template Generator](https://github.com/paritytech/substrate-template-generator/).
+As users submit data for verification, they generate tokens in the BlockIQ® DAO (decentralized autonomous organization), a self-sufficient infinite liquidity pool where users are able to either claim or stake their tokens using their BlockID dNFT.
 
-👉 Learn more about parachains [here](https://wiki.polkadot.network/docs/learn-parachains), and
-parathreads [here](https://wiki.polkadot.network/docs/learn-parathreads).
+The BlockIQ® protocol algorithmically controls the BlockIQ® DAO. Users can borrow from the network by staking their BlockID® dNFT to the BlockIQ® DAO liquidity pool, which will leverage the value of the tokens attached to the users BlockID® dNFT.
 
 
-🧙 Learn about how to use this template and run your own parachain testnet for it in the
-[Devhub Cumulus Tutorial](https://docs.substrate.io/tutorials/v3/cumulus/start-relay/).
+2. How can we use the BlockIQ® DAO?
+
+This is the parachain for BlockIQ®, which is to allow users to borrow and loan “stake” the tokens they generate after syncing their data with the network..
+
+The functions the users can call via Polkadot.js are kinds of "Set/Get" named as below;
+    Set : "set_ticket"
+    Get : "get_ticket"
